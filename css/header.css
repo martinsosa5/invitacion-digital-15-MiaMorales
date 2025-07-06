@@ -41,7 +41,7 @@
 }
 
 .contenedor_contador{
-    color: var(--colorRosa); 
+    color: var(--colorPrimario); 
 }
 
 .contenedor_contador h5{
@@ -62,7 +62,7 @@
     position: fixed;
     bottom: 20px; /* Ajusta este valor para mover el botón más arriba o más abajo */
     right: 20px;  /* Ajusta este valor para acercarlo o alejarlo del borde derecho */
-    background-color: var(--colorRosa);
+    background-color: var(--colorPrimario);
     color: white;
     border: none;
     border-radius: 50%;

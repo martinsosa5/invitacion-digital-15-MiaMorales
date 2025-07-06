@@ -5,8 +5,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-   /*  background-color: var(--colorRosaBlanco); */ /* Capa semitransparente */
-    background-image: url('/img/foto-inicio.jpeg'); /* Reemplaza con la ruta de tu imagen */
+    background-color: var(--colorRosaBlanco); /* Capa semitransparente */
+    /*background-image: url('/img/IMG_6436.JPG'); /* Reemplaza con la ruta de tu imagen */
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -21,7 +21,7 @@
     padding: 15px 30px;
     font-size: 18px;
     color: var(--colorRosaBlanco);
-    background-color: var(--colorRosa);
+    background-color: var(--colorPrimario);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -38,9 +38,9 @@
 }
 
 .contenedor_superposicion h5{
-    color: var(--colorRosaBlanco);
+    color: var(--colorPrimario);
     font-weight: 300;
-    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.9); /* Sombra negra con transparencia */
+   /*  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.9); */ /* Sombra negra con transparencia */
 }
 
 .circle_img{
@@ -87,14 +87,14 @@
 /* --------- SECCION DE DONDE Y CUANDO --------- */
 
 .contenedor_dondeycuando{
-    background-color: var(--colorRosa);
+    background-color: var(--colorPrimario);
 }
 .contenedor_card img{
     width: 100%;
 }
 
 .text_titulo{
-    color: var(--colorRosaBlanco);
+    color: var(--colorDorado);
 }
 
 .contenedor-info p{
@@ -108,13 +108,13 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 .boton-mapa{
-    background-color: var(--colorRosaBlanco);
-    color: var(--colorRosa);
+    background-color: var(--colorDorado);
+    color: var(--colorRosaBlanco);
     font-family: var(--tipografiaMerriweather-Sans);
 }
 .boton-mapa:hover{
-    background-color: var(--colorGris);
-    color: aliceblue;
+    color: var(--colorDorado);
+    background-color: var(--colorRosaBlanco);
 }
 
 .lineaBlanca {
@@ -124,7 +124,7 @@
 
 /* DRESS CODE */
 .card_dresscode{
-    background-color: var(--colorRosa);
+    background-color: var(--colorPrimario);
     width: 250px;      /* Ajusta el tamaño del círculo */
     height: 250px;     /* Igual que el width para que sea un círculo */
     border-radius: 50%;  /* Esto redondea las esquinas para hacer el círculo */
@@ -182,26 +182,26 @@
 /* CONFIRMAR ASISTENCIA */
 
 .banner_separador{
-    background-color: var(--colorRosa);
+    background-color: var(--colorPrimario);
     padding: 0.5rem;
 }
 .contenedor_confirmacion{
     background-color: var(--colorPrimario);
     padding-top: 2rem;
     padding-bottom: 8rem;
-    background: linear-gradient(rgba(252, 250, 245, 0.6), rgba(214, 118, 156, 0.3)), url('/img/fondo-asistencia-3.png');
+    background: linear-gradient(rgba(66, 66, 66, 0.6), rgba(49, 49, 49, 0.3)), url('/img/fondo-asistencia-03.jpeg');
     background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
     background-position: center; /* Centrar la imagen */
     background-repeat: no-repeat; /* Evitar que la imagen se repita */
 }
 .contenedor_confirmacion h2{
-    color: var(--colorGris);
+    color: var(--colorRosaBlanco);
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
 }
 .contenedor_confirmacion h3{
-    color: var(--colorRosa);
+    color: var(--colorDorado);
 }
 .boton-wsp{
     background-color: rgb(37, 211, 102);
